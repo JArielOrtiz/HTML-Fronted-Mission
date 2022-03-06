@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria "El Pastelin"</title>
+</head>
+
+<body>
+    <!-- Recordar ponner el fondo de este color -->
+    
+
+    <!-- Para poner la imagen de la pasteleria cuando es un archivo local (igual se puede con uno de internet) -->
+    <img src="A:\Descargas\El Pastelin.png" alt="El Pastelin" width="350px" height="350px">
+    
+    <!-- Nuestro header de la pagina (algo asi como el titulo) -->
+    <h1> Bienvenidos a la pasteleria "El Pastelin" </h1>
+
+    <h4>Direccion: Isidro Duarte #64X-Z, CDMX</h2>
+    <h4>Teléfono: 443-12-34-XXX</h2>
+    <h4>Horarios de atención: Lunes a Sabado de 7:00am - 4:00pm</h2>
+
+    <!-- Elaboracion de nuestra tabla para mostrar los sabores de pasteles y sus precios -->
+    <!-- La coloque en un div para poder centar lo que esta en la tabla -->
+    <div style="text-align:center;"></div>
+    <table border="1" style="margin: 0 auto;">
+        <tr>
+            <th>Pasteles</th>
+            <th>Extra Grande (40 personas)</th>
+            <th>Grande (25 personas)</th>
+            <th>Mediano (15 personas)</th>
+            <th>Chico (5 personas)</th>
+            <th>Mini (1 persona)</th>
+        </tr>
+        <!-- aling = "center", sirve para centrar el texto dentro de la tabla -->
+        <tr>
+            <td align = "center">Fresa</td>
+            <td align = "center">$2000.00</td>
+            <td align = "center">$1300.00</td>
+            <td align = "center">$700.00</td>
+            <td align = "center">$300.00</td>
+            <td align = "center">$80.00</td>
+        </tr>
+        <tr>
+            <td align = "center">Chocolate</td>
+            <td align = "center">$2000.00</td>
+            <td align = "center">$1300.00</td>
+            <td align = "center">$700.00</td>
+            <td align = "center">$300.00</td>
+            <td align = "center">$80.00</td>
+        </tr>
+        <tr>
+            <td align = "center">Vainilla</td>
+            <td align = "center">$2000.00</td>
+            <td align = "center">$1300.00</td>
+            <td align = "center">$700.00</td>
+            <td align = "center">$300.00</td>
+            <td align = "center">$80.00</td>
+        </tr>
+        <tr>
+            <td align = "center">Coco</td>
+            <td align = "center">$2100.00</td>
+            <td align = "center">$1350.00</td>
+            <td align = "center">$750.00</td>
+            <td align = "center">$320.00</td>
+            <td align = "center">$85.00</td>
+        </tr>
+        <tr>
+            <td align = "center">Tres Leches</td>
+            <td align = "center">$2200.00</td>
+            <td align = "center">$1400.00</td>
+            <td align = "center">$790.00</td>
+            <td align = "center">$370.00</td>
+            <td align = "center">$100.00</td>
+        </tr>
+        <tr>
+            <td align = "center">Combinado</td>
+            <td align = "center">$2500.00</td>
+            <td align = "center">$1700.00</td>
+            <td align = "center">$900.00</td>
+            <td align = "center">$450.00</td>
+            <td align = "center">$120.00</td>
+        </tr>
+    </table>
+    <div style="text-align:center;"></div>
+
+
+    <h3>El pastel se puede deconrar con: </h3>
+    <ol>
+        <li>Frutas (Fresas, Kiwi, Mango, Cerezas)............Incluido con el pastel</li>
+        <li>Chantillin.......................................Incluido con el pastel</li>
+        <li>Chocolates.......................................Incluido con el pastel</li>
+        <li>Combinado........................................Incluido con el pastel</li>
+    </ol>
+
+    <!-- Para el formulario -->
+    <h2>Hora de llenar el formulario para disfrutar su pastel</h2>
+
+    <label for="Input1">Nombre</label><br>
+    <input type="text" id="Input1" name="Input1"><br><br>
+
+    <label for="tel1">Número de celular</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+    <label for="correo1">Correo</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="Input1">Tamaño del pastel</label><br>
+    <input type="text" id="Input1" name="Input1"><br><br>
+
+    <label for="Input1">Sabor del pastel</label><br>
+    <input type="text" id="Input1" name="Input1"><br><br>
+
+    <label for="Input1">Adornos del pastel</label><br>
+    <input type="text" id="Input1" name="Input1"><br><br>
+
+    <!-- Para enviar el formulario o reiniciarlo -->
+    <p><button type="submit">Enviar formulario</button></p>
+    <p><button type="reset">Reset</button></p>
+    
+</body>
+</html>
